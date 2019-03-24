@@ -28,7 +28,7 @@ def display_stats(cifar10_dataset_folder_path, batch_id, sample_id):
     """
     Display Stats of the the dataset
     """
-    batch_ids = list(range(1, 6))
+    batch_ids = list(range(2, 6))
 
     if batch_id not in batch_ids:
         print('Batch Id out of Range. Possible Batch Ids: {}'.format(batch_ids))
